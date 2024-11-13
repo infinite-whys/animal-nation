@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512d8baa1ce77c144a4bcae51f66f40f, type: 3}
+  m_Name: RegionSelectionSettings
+  m_EditorClassIdentifier: 
+  <MoveDistance>k__BackingField: 0.5
+  <MoveTime>k__BackingField: 0.2
+  <DelayBetweenRegionSelectedAndBeginLevel>k__BackingField: 1
+  OnHoverClip: {fileID: 8300000, guid: 85a0bcb460bc44b4988b973d67dc27cc, type: 3}
+  OnSelectClip: {fileID: 8300000, guid: 82ad29a1b4d519e4d834aedccd0241d5, type: 3}
+  OnConfirmClip: {fileID: 8300000, guid: 507782797b2f04d44aab6a211039aac2, type: 3}
+  OnCantSelectClip: {fileID: 8300000, guid: 9d37cc1f6edfd914f9a53ecee1e9cdeb, type: 3}

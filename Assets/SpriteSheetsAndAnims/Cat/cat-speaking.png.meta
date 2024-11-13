@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: 29f87fc325c6e6c44b9be3ffd51b78e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cat-speaking_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3608
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abad3e21894e474c83e9d4123714dad
+      internalID: -2131552667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3608
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76c36046435918458d1e7412232656c
+      internalID: 1408677711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_2
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 3608
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a46cfe96fe1dfb4b9aaba35a05b3d4e
+      internalID: -1460590681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_3
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3608
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84789dd9d4c22d4da9301745ab7f368
+      internalID: -862741351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_4
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3608
+        width: 505
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc1b8c4584e0ae49b289bd345d17b00
+      internalID: 580956516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_5
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 3608
+        width: 505
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53d8cf58867e04a9e1495211cbdcc3
+      internalID: 1502424780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_6
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 3608
+        width: 505
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff7cd7883ceae3489698238eaf5864a
+      internalID: -538472765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3119
+        width: 505
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f98b1fb52751e4586a34665a6e4afd
+      internalID: 1855990989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3119
+        width: 505
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a949052f571f7042b95b4a0cbd64505
+      internalID: 717979339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_9
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 3119
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530ea91150c67f049bc948ec0ddf2f3a
+      internalID: -656977111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_10
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3119
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e4e267b9178c4ca029ebadc20ad5a
+      internalID: 1084863178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_11
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3119
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47588f2483d4b934bb551d3e81879f24
+      internalID: 2110551347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_12
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 3119
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d55dcfa87d86479d658bcc680aa8c
+      internalID: -108121220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_13
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 3119
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d4916b9d7336140a68775f3885c057
+      internalID: 1846270462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47405ddb490de6e49a40f8b4da245b31
+      internalID: -1509773208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73949f40fabec6d4881b36fc238f70d7
+      internalID: -1595873698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_16
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e562aa438870e4584dc1f9776894bb
+      internalID: -955375881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_17
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71095b52c4f85014c9f2922ad0b43321
+      internalID: -2144423690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_18
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1b524333762ca4f89c184f41ea5f7b
+      internalID: 1849628749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_19
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7829398d94a18479264cb10103f9b7
+      internalID: 1926095677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_20
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2630
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c83ddf9afebb46b5c87b6df75cd78
+      internalID: -2063615869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2141
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092c275c0e80d745b8a99112d353393
+      internalID: -1106763372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2141
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a10f4c4b277db42bd1436e285a2cbd
+      internalID: 505844081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_23
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 2141
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e0a8d7a2299154196c9ba60cc8cbc1
+      internalID: -639554366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_24
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 2141
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c3471aa9918c49bd8b6f03eb02fb9
+      internalID: 1931495646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_25
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2141
+        width: 510
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2c89667142f174895ddd287a215c51
+      internalID: 1232440197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_26
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 2141
+        width: 511
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2697ff9f82784d46b574b4c939ec2e0
+      internalID: -242381855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_27
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 2141
+        width: 513
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b946f267aafd048ad15f72c7fc152a
+      internalID: 1577983820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1652
+        width: 514
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060d21cd7819fc54bbb071616215660a
+      internalID: -165196250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_29
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1652
+        width: 514
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37823b465c30cd74a9452225adc47d7c
+      internalID: -1737218070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_30
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1652
+        width: 512
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4b5a794e293b5498aaf4df38d7a7ef
+      internalID: 221490551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_31
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1652
+        width: 511
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd50b4fbf59fc6498e3a3b4855835d9
+      internalID: 1027539438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_32
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1652
+        width: 509
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73fb9c0612b07845b16a98607cfba8d
+      internalID: -776743180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_33
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 1652
+        width: 508
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9db12db0ceb4774d81e02d29ea2d854
+      internalID: -1066277777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_34
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 1652
+        width: 507
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b49d4ef6ce7f44d93883e1b1b069da
+      internalID: -2096300401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1163
+        width: 507
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e25799bda2ea4c9de5822dfe5a5d6
+      internalID: 1428356163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_36
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1163
+        width: 507
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b804d687d0cfa43ae8778bd13f269d
+      internalID: 1940126283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_37
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1163
+        width: 507
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779e2e62079c724da20f418487fde4a
+      internalID: -701289272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_38
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1163
+        width: 507
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a606dccf73ecba94795396f55ea20bfa
+      internalID: 222770795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_39
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1163
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62c8492a10f72b4baa1c65fa7c48fc9
+      internalID: -1804052724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_40
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 1163
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aaaf0215bd9cb478d7da948cef0d7d
+      internalID: -1547781434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_41
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 1163
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d3e484943b7cb478bd2369b2ccdbf7
+      internalID: -918361753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_42
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 674
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bc02e57ed1c0b4391af693d2c1d8e9
+      internalID: 913549009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 674
+        width: 509
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096347ca497f22048bdef25e5ac2aa90
+      internalID: 554888569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_44
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 674
+        width: 503
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae4abd68c997844a743fe48706dc66
+      internalID: -1400385130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_45
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 674
+        width: 503
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8fee36878f05c48a69952411255625
+      internalID: 1143769929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_46
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 674
+        width: 503
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceec490e47bab264fb77214ea2cb47ce
+      internalID: -1059777599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_47
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 674
+        width: 503
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2e7ce7a8262e745bc6b0c28ee399f5
+      internalID: 1787416697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat-speaking_48
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 674
+        width: 503
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392588c90f00c3e44ab975cac9d9171e
+      internalID: -298200721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c880dca8ceef4b041be218cdd93989ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cat-speaking_0: -2131552667
+      cat-speaking_1: 1408677711
+      cat-speaking_10: 1084863178
+      cat-speaking_11: 2110551347
+      cat-speaking_12: -108121220
+      cat-speaking_13: 1846270462
+      cat-speaking_14: -1509773208
+      cat-speaking_15: -1595873698
+      cat-speaking_16: -955375881
+      cat-speaking_17: -2144423690
+      cat-speaking_18: 1849628749
+      cat-speaking_19: 1926095677
+      cat-speaking_2: -1460590681
+      cat-speaking_20: -2063615869
+      cat-speaking_21: -1106763372
+      cat-speaking_22: 505844081
+      cat-speaking_23: -639554366
+      cat-speaking_24: 1931495646
+      cat-speaking_25: 1232440197
+      cat-speaking_26: -242381855
+      cat-speaking_27: 1577983820
+      cat-speaking_28: -165196250
+      cat-speaking_29: -1737218070
+      cat-speaking_3: -862741351
+      cat-speaking_30: 221490551
+      cat-speaking_31: 1027539438
+      cat-speaking_32: -776743180
+      cat-speaking_33: -1066277777
+      cat-speaking_34: -2096300401
+      cat-speaking_35: 1428356163
+      cat-speaking_36: 1940126283
+      cat-speaking_37: -701289272
+      cat-speaking_38: 222770795
+      cat-speaking_39: -1804052724
+      cat-speaking_4: 580956516
+      cat-speaking_40: -1547781434
+      cat-speaking_41: -918361753
+      cat-speaking_42: 913549009
+      cat-speaking_43: 554888569
+      cat-speaking_44: -1400385130
+      cat-speaking_45: 1143769929
+      cat-speaking_46: -1059777599
+      cat-speaking_47: 1787416697
+      cat-speaking_48: -298200721
+      cat-speaking_5: 1502424780
+      cat-speaking_6: -538472765
+      cat-speaking_7: 1855990989
+      cat-speaking_8: 717979339
+      cat-speaking_9: -656977111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

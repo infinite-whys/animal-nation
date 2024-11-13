@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/TutorialUIStyle.uss?fileID=7433441132597879392&amp;guid=dff5cf4b5379ab242bd7993c3237ee38&amp;type=3#TutorialUIStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(160, 231, 206);">
+        <ui:VisualElement name="CampaignManagerPanel" style="width: 100%; height: 60%; position: absolute; top: auto; bottom: 0; flex-direction: row; justify-content: space-around; align-items: stretch; align-self: stretch;">
+            <ui:VisualElement name="CampaignManager" style="flex-grow: 1; left: 0; width: 44%; height: 70%; background-image: resource(&apos;Shapes2D Sprites/CampaignManager&apos;); -unity-background-scale-mode: scale-to-fit; align-self: auto; justify-content: center; align-items: auto; flex-direction: row; bottom: 0; position: relative; margin-top: 191px;" />
+            <ui:VisualElement name="SpeachBubble" style="flex-grow: 1; width: 100%; background-image: resource(&apos;Shapes2D Sprites/SpeachBubble&apos;); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; height: 72%;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 389px; -unity-text-align: middle-center; white-space: normal; font-size: 61px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

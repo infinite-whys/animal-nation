@@ -1,0 +1,36 @@
+.header {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0;
+    opacity: 1;
+    margin-top: 300px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    -unity-text-align: upper-center;
+}
+
+.button {
+    font-size: 40px;
+    width: 220px;
+    height: 60px;
+    -unity-text-align: middle-center;
+    justify-content: flex-start;
+    align-self: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    -unity-text-outline-width: 0;
+    background-image: resource('Shapes2D Sprites/MenuButton');
+    transition-duration: 0.35s;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgb(119, 255, 132);
+}
+
+.button:active {
+    -unity-background-image-tint-color: rgb(248, 39, 39);
+}

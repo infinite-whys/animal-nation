@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6983736194023997203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097014396516670644}
+  - component: {fileID: 624705340740038163}
+  m_Layer: 0
+  m_Name: GameplayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097014396516670644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983736194023997203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 452.02338, y: 262.9105, z: -2.3914928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &624705340740038163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983736194023997203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eafa96179aa16f84197174ae66d6d326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <gameplayState>k__BackingField: 0
+  <Personas>k__BackingField:
+  - {fileID: 11400000, guid: 73064194e641c9845a7ab399623e85b2, type: 2}
+  - {fileID: 11400000, guid: 57a734968d4adee46ac7172038d3720f, type: 2}
+  - {fileID: 11400000, guid: fbc296a4cdc067940a53604880bb2fde, type: 2}
+  - {fileID: 11400000, guid: 4ef8f9b8e50390e439e2bc87249b16b4, type: 2}
+  - {fileID: 11400000, guid: 09a01d1f0d4a8a94aaebb43e533d91b2, type: 2}
+  - {fileID: 11400000, guid: f40a3ef35de81c14284fda620dc940ba, type: 2}
+  - {fileID: 11400000, guid: e33f54c851e31384a93db958771ff34a, type: 2}
+  <SelectedTopic>k__BackingField: {fileID: 0}
+  <StatementIndex>k__BackingField: -1
+  <MaxStatementIndex>k__BackingField: 2
+  <AllScores>k__BackingField: 
+  SelectedRegion: {fileID: 0}
+  PromptUICanvas: {fileID: 0}

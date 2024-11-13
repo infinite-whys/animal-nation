@@ -1,0 +1,3207 @@
+fileFormatVersion: 2
+guid: 424a8ea04318949159ffc2fa7eae4ecb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hamster-idle_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3708
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39f08175a4fcb3438ce784aaf45dcc1
+      internalID: -1306467228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3708
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3790c6959ed74847869fea5d1790789
+      internalID: 1719046082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3708
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a698865d58ea00943af686f189482a08
+      internalID: 1985623328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 3708
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236abd54a16314841a4a7af30817a6ce
+      internalID: 1828896829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3708
+        width: 356
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd069fa9b798934286ac1a3abf21274
+      internalID: 261127300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 3708
+        width: 360
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02482c1e434c4c748b32061d460d5eff
+      internalID: -2035840408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_6
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa69578c0f62e8049ab84363467e64ff
+      internalID: 939750211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_7
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5547d98567c8d0c469ab2304ad274c11
+      internalID: 1210714835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_8
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ade98b7505eaa04e8b1bcf5f5a76c91
+      internalID: 1219025700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_9
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 3712
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6066efc08076dfc45a30acdb0da627de
+      internalID: -649699457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_10
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c168f8a1fc554e9b54e0c38ff9dfc
+      internalID: -168165408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_11
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e958164d3d8728449e008ac509f7141
+      internalID: 124161841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_12
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43e0b0621da27f45ab4fb3f8bb668b6
+      internalID: -974073719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_13
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 3712
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a441f15b1144a4e9dd969a634becb4
+      internalID: 273505482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_14
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ec236ab0de3614ea016782f129b4c9
+      internalID: -188810068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_15
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4950c019b0001ba47865a0611f677e87
+      internalID: -1986718587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_16
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8899470e8e98cb649bb919acfd0ce673
+      internalID: 187193146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_17
+      rect:
+        serializedVersion: 2
+        x: 6476
+        y: 3712
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31f795b251f0542aeb864fac3de177
+      internalID: 38382428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_18
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf1579306330c04bb0097657564c355
+      internalID: -485522250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_19
+      rect:
+        serializedVersion: 2
+        x: 7236
+        y: 3712
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62769c27746ca2a4b9017fdee3cd9cdd
+      internalID: -282339064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_20
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 3708
+        width: 356
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405801b355b31d04faa140a1eb60c6a8
+      internalID: -823082396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3316
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76330bda2bbd37445ab118136d0c0670
+      internalID: -400005690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3316
+        width: 360
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ccdb57d3a9dcc4b9966a7df751ff9c
+      internalID: -947152328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_23
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3316
+        width: 356
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc434eb2d471f84f8c4fccc98ac3009
+      internalID: 1075597066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 3316
+        width: 356
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fab71fe78f3cd4780d956acb91bbaa
+      internalID: 27270327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3316
+        width: 356
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff61f3421440ac428130fa39893fe5d
+      internalID: 114843401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_26
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 3312
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9810070f4d81f434fb6f36b9225db4f1
+      internalID: -1529563448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_27
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd87e1483f20904897bd605e6d63706
+      internalID: 851889246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_28
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef0d73e6c3d410488ac8e70dfeeab27
+      internalID: -24352173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e69a110e03bd448a10a0042e7ae1b
+      internalID: -251720154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_30
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 3312
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa1b778261ab344fb15de87ae3c474a
+      internalID: 1670539839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_31
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1700cca6e2134c45a2dff4843d33f98
+      internalID: 1896038644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_32
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e210f49343940c4f9e527a3e04eaba1
+      internalID: -856137762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_33
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006c34e6964e6ee4e95b9cb318a152ec
+      internalID: 2115464142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_34
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 3312
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453faeb6f68e5e941994d51ee41223a2
+      internalID: -1095958680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_35
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5300638934cb7cd4890fe11de2b13649
+      internalID: 1256138244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_36
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd15553410fabd24680a3f8fb64f4855
+      internalID: -619236120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_37
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43295a45b1f6546b78751364ce74ee
+      internalID: -423692029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_38
+      rect:
+        serializedVersion: 2
+        x: 6476
+        y: 3312
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26055c91a07d34458751ffb52d1cd65
+      internalID: -332223028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_39
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 3308
+        width: 356
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6fe90adf32e404fb7734d81e95f46c
+      internalID: -1449603327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_40
+      rect:
+        serializedVersion: 2
+        x: 7236
+        y: 3312
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c638737eac5b4549b2b2e6bf54ac779
+      internalID: 1870038979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_41
+      rect:
+        serializedVersion: 2
+        x: 7612
+        y: 3308
+        width: 360
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af67022cea9ba459e51f1fbf034adf
+      internalID: 218164486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_42
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f0811cb0ded3d41996f1ece7bd7761
+      internalID: 630792124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_43
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaab63804123f74383338abacb16c68
+      internalID: 1112347292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_44
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ee0b3a5000228459c15695d27da738
+      internalID: -1469051138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_45
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3467354c260dd49b925a25bedaf0f6
+      internalID: -1304072324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_46
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f653ac8d9b9944aa04ad19706645d7
+      internalID: -2107235402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_47
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf9d3e90e86f243b312845b89f332a
+      internalID: -247077574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_48
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b712d7b3d3fa64baf3babbe89bf8fa
+      internalID: -2019549145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_49
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d72971dfc7dda4984275cd94f53fb7
+      internalID: -161222831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_50
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6c71302f25e32448a3377c47f7950e
+      internalID: -1930551118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_51
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda6769facc178b4b91f6e30b04453a7
+      internalID: 739141069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_52
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c175b214a64b40b1cd35c8f79dee5
+      internalID: 1041919742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_53
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83682f6341163854ea63c11a5563e4c6
+      internalID: 1091940383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_54
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f147a8a1727a9414eb02399e443cadf1
+      internalID: 214499350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_55
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df18f6960c124b94d820e97fbe8dd178
+      internalID: 617182659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_56
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8fb08369c219c4a9819f9ac23c1c62
+      internalID: 755594254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_57
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74714a32abe4a424aa556d0bfff9fafa
+      internalID: -721283036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_58
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e1767ff26bb96409f7d98b26b69b8c
+      internalID: 572235006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_59
+      rect:
+        serializedVersion: 2
+        x: 6476
+        y: 2916
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db086c795ae01a44a5ba5daf0bb0197
+      internalID: 1312740953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_60
+      rect:
+        serializedVersion: 2
+        x: 6856
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224872d39e70d249bdf121c8302d9a9
+      internalID: -2128297523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_61
+      rect:
+        serializedVersion: 2
+        x: 7236
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa01ff099ba1714aac8186bee826a2a
+      internalID: 1596796903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_62
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 2916
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8685e1068c19ea4190b96539ef3610c
+      internalID: 1488035598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2520
+        width: 356
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262426a913184e2458f2ca366199d4e1
+      internalID: 1625975508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_64
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2520
+        width: 360
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca0bfc1697f54a41abb7063d3df5557
+      internalID: -224366514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_65
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2520
+        width: 356
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953cfbc111a1b1944811dcc0797d4ff2
+      internalID: 5934615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_66
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6d6675d42f4364f82c309d60c89f02
+      internalID: 2088749193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_67
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2520
+        width: 360
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2dd20a99929c489f95cc906d2ba94
+      internalID: 964784768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_68
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd9c126df3606f4bb51b7540edea417
+      internalID: -1987049530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_69
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a68a777477ca4a45a92f8575b291510
+      internalID: -489752898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_70
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41e4f422b26df14f93e3679543af720
+      internalID: 1711615051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_71
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e6cee892c958469b522ba318a9a29
+      internalID: -1817242842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_72
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b38143d8bd02054d823a2eeaea245d5
+      internalID: -1200651421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_73
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a4baf44ac7ac84f875e5319c4d939b
+      internalID: 2121314376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_74
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217aa4a7ea4d97c42b4a6b1e39139a73
+      internalID: -419209315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_75
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d43bf5b23de9c458edaa3af21e0747
+      internalID: -1084314182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_76
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eac26a138bdf2498c168e0a3a14715
+      internalID: -968897327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_77
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ea4dc77de830e4e9245f0abdc82f7b
+      internalID: 3965111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_78
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc4172ef5caee94a900cfd0ddd397c9
+      internalID: 1156308352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_79
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7676b0f2513118948993c1d36d674e4c
+      internalID: 1181172000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_80
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8af9b3efbd4d842932e4d353fe742c
+      internalID: -1307765583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_81
+      rect:
+        serializedVersion: 2
+        x: 6852
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7923c6ea5e8e1cb40bb78412426155b4
+      internalID: 2070566186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_82
+      rect:
+        serializedVersion: 2
+        x: 7232
+        y: 2520
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c7627431b72a5409283cceb8093b4f
+      internalID: -1605003229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_83
+      rect:
+        serializedVersion: 2
+        x: 7612
+        y: 2520
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347f9053e5609424c8c2c6d59cf45167
+      internalID: 2132064028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_84
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c247147746a42574fae76932cda29cb9
+      internalID: 323236791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_85
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f8e137bc756e4438a8810bc0cc96cf
+      internalID: 1646387663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_86
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b70d39f17d36d94890465dcac4b6d70
+      internalID: -221188174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_87
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f38a2e0a5b2d145a7b5bb957014bf4
+      internalID: -1611971754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_88
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81f27d7ee034224ca66915274d303ba
+      internalID: 1591310858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_89
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a93a14f0cd248d4f93e5553a650797d
+      internalID: 212217630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_90
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a05e823966934f90d27d06edf860c
+      internalID: -776835984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_91
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bd89e1a08679c478c1d2fb9aaf2d32
+      internalID: -92475876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_92
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02031479ad6252a49a595f1df1e317e6
+      internalID: -310270144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_93
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1597c415b7265144fa0b67f115fc6965
+      internalID: 357092060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_94
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea73024e8fb92340b1b3ff51743d796
+      internalID: 360577879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_95
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb31f71e7a0fe14bb595c0646097d77
+      internalID: 1254894808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_96
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b97232c83422f4e852273baf028399
+      internalID: 853058946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_97
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca8da693247fd4cb890a0fde44fcc1
+      internalID: -1501043498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_98
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540df6ece8a04ce49841b3c82890874a
+      internalID: -1435721408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_99
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c30278c87adc504e98325ee0b792e17
+      internalID: 588424490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_100
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad6e6514788d94e897623d98bd4df4
+      internalID: -1593134452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_101
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e839f1b225aec5d4e8c2e0bf4aaafa5e
+      internalID: 1572634742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_102
+      rect:
+        serializedVersion: 2
+        x: 6852
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42720d9ba066d64ab24b888387b20c7
+      internalID: 1249206229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_103
+      rect:
+        serializedVersion: 2
+        x: 7232
+        y: 2124
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06881839d161fbe4e8700e628ffcd4e2
+      internalID: 182786451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_104
+      rect:
+        serializedVersion: 2
+        x: 7612
+        y: 2124
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d80c002296502a47987c98b3a911f80
+      internalID: 107361199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_105
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e422578f4baea43975391b0226d226
+      internalID: -148031858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_106
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0702d706c963a4096ed838565f28d0
+      internalID: 2133918449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_107
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31ca934ea85074d9294a09a75c87ff
+      internalID: -1597595946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_108
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27687e5eabd280b4ebf93aa82995f864
+      internalID: -1046803164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_109
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ded12fb7247142a47634a2c551b61
+      internalID: -178938915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_110
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3bb5c2cfb37cf4aa677ec0a0196ced
+      internalID: 1553013160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_111
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2614d9f9789ab4b99114b6ce20ba87
+      internalID: 1107023674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_112
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5e65f8d2e0444880d1a5fcf3f6817
+      internalID: -601049319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_113
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34a4eea5ad363740a8ada97aab7612b
+      internalID: 879790358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_114
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a73ea4e148cde42bccd17bc65f8603
+      internalID: 612403660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_115
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730770cd9560c0c479071f67370a7c2b
+      internalID: -436245590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_116
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63cacd6248fed44b64e757bdea045c
+      internalID: -522150158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_117
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5434ebaeccc2d6f4ab4fe73d36a1d7c5
+      internalID: -842698284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_118
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95673ee58aa58584398d6e69227b00f2
+      internalID: 177561392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_119
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7051f4d137f848f4aa6a8615c5882aa0
+      internalID: 877101798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_120
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9364fd8856509c41932785071cad405
+      internalID: -190678276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_121
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabcd50eae472154da002811771b2165
+      internalID: -500716106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_122
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8ead9a052896e4489877a564e14495
+      internalID: 1733388240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_123
+      rect:
+        serializedVersion: 2
+        x: 6852
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5642945fd284f46b55e4166496cbe9
+      internalID: 1341058460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_124
+      rect:
+        serializedVersion: 2
+        x: 7232
+        y: 1728
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5172bd1e545c44f4090fe71aca2591c7
+      internalID: -1793377560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_125
+      rect:
+        serializedVersion: 2
+        x: 7612
+        y: 1728
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1df94603377bc4bb0f941391fd2fa0
+      internalID: -1705891234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_126
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1332
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e848d00f7468e95428e106c54d63a38c
+      internalID: 317745639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_127
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc56b71ae18ea2469b7598c5fd63df5
+      internalID: -997445471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_128
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883e0ba2b95890247acaa670c0f0db5f
+      internalID: -1142705860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a6e4bd2aabd774bb69a5d3c7033d55
+      internalID: -872523407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_130
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1332
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75436674cbaae5844afaeb4ea8310848
+      internalID: -213345271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_131
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb22f9f13f7c71459d37aa94984b80f
+      internalID: -1479933717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_132
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c1bb11b6f2484cbfd6ceefb77f7bb
+      internalID: -1572744647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_133
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754da6dcc44721d41b566c65eb379a24
+      internalID: 341747836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_134
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 1332
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3201aea430e28547b2d7cac6ab50a5b
+      internalID: 1572354181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_135
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8b6d44fd5ff24d8c0a27130725fc1
+      internalID: 1822741894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_136
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f87261a32c70448bac0c346e3a3a92
+      internalID: 1175565705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_137
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09c30cbf8982e4aaf97b60e42be3bf
+      internalID: -1902167606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_138
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 1332
+        width: 360
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac926f23b9a1aad45bf25b55c07b0865
+      internalID: 102399612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamster-idle_139
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 1332
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae3195a4b82a2f4ea3f5d0f045444da
+      internalID: -1446553499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f55a3b5f5443f8e42a775c15647c0e40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hamster-idle_0: -1306467228
+      hamster-idle_1: 1719046082
+      hamster-idle_10: -168165408
+      hamster-idle_100: -1593134452
+      hamster-idle_101: 1572634742
+      hamster-idle_102: 1249206229
+      hamster-idle_103: 182786451
+      hamster-idle_104: 107361199
+      hamster-idle_105: -148031858
+      hamster-idle_106: 2133918449
+      hamster-idle_107: -1597595946
+      hamster-idle_108: -1046803164
+      hamster-idle_109: -178938915
+      hamster-idle_11: 124161841
+      hamster-idle_110: 1553013160
+      hamster-idle_111: 1107023674
+      hamster-idle_112: -601049319
+      hamster-idle_113: 879790358
+      hamster-idle_114: 612403660
+      hamster-idle_115: -436245590
+      hamster-idle_116: -522150158
+      hamster-idle_117: -842698284
+      hamster-idle_118: 177561392
+      hamster-idle_119: 877101798
+      hamster-idle_12: -974073719
+      hamster-idle_120: -190678276
+      hamster-idle_121: -500716106
+      hamster-idle_122: 1733388240
+      hamster-idle_123: 1341058460
+      hamster-idle_124: -1793377560
+      hamster-idle_125: -1705891234
+      hamster-idle_126: 317745639
+      hamster-idle_127: -997445471
+      hamster-idle_128: -1142705860
+      hamster-idle_129: -872523407
+      hamster-idle_13: 273505482
+      hamster-idle_130: -213345271
+      hamster-idle_131: -1479933717
+      hamster-idle_132: -1572744647
+      hamster-idle_133: 341747836
+      hamster-idle_134: 1572354181
+      hamster-idle_135: 1822741894
+      hamster-idle_136: 1175565705
+      hamster-idle_137: -1902167606
+      hamster-idle_138: 102399612
+      hamster-idle_139: -1446553499
+      hamster-idle_14: -188810068
+      hamster-idle_15: -1986718587
+      hamster-idle_16: 187193146
+      hamster-idle_17: 38382428
+      hamster-idle_18: -485522250
+      hamster-idle_19: -282339064
+      hamster-idle_2: 1985623328
+      hamster-idle_20: -823082396
+      hamster-idle_21: -400005690
+      hamster-idle_22: -947152328
+      hamster-idle_23: 1075597066
+      hamster-idle_24: 27270327
+      hamster-idle_25: 114843401
+      hamster-idle_26: -1529563448
+      hamster-idle_27: 851889246
+      hamster-idle_28: -24352173
+      hamster-idle_29: -251720154
+      hamster-idle_3: 1828896829
+      hamster-idle_30: 1670539839
+      hamster-idle_31: 1896038644
+      hamster-idle_32: -856137762
+      hamster-idle_33: 2115464142
+      hamster-idle_34: -1095958680
+      hamster-idle_35: 1256138244
+      hamster-idle_36: -619236120
+      hamster-idle_37: -423692029
+      hamster-idle_38: -332223028
+      hamster-idle_39: -1449603327
+      hamster-idle_4: 261127300
+      hamster-idle_40: 1870038979
+      hamster-idle_41: 218164486
+      hamster-idle_42: 630792124
+      hamster-idle_43: 1112347292
+      hamster-idle_44: -1469051138
+      hamster-idle_45: -1304072324
+      hamster-idle_46: -2107235402
+      hamster-idle_47: -247077574
+      hamster-idle_48: -2019549145
+      hamster-idle_49: -161222831
+      hamster-idle_5: -2035840408
+      hamster-idle_50: -1930551118
+      hamster-idle_51: 739141069
+      hamster-idle_52: 1041919742
+      hamster-idle_53: 1091940383
+      hamster-idle_54: 214499350
+      hamster-idle_55: 617182659
+      hamster-idle_56: 755594254
+      hamster-idle_57: -721283036
+      hamster-idle_58: 572235006
+      hamster-idle_59: 1312740953
+      hamster-idle_6: 939750211
+      hamster-idle_60: -2128297523
+      hamster-idle_61: 1596796903
+      hamster-idle_62: 1488035598
+      hamster-idle_63: 1625975508
+      hamster-idle_64: -224366514
+      hamster-idle_65: 5934615
+      hamster-idle_66: 2088749193
+      hamster-idle_67: 964784768
+      hamster-idle_68: -1987049530
+      hamster-idle_69: -489752898
+      hamster-idle_7: 1210714835
+      hamster-idle_70: 1711615051
+      hamster-idle_71: -1817242842
+      hamster-idle_72: -1200651421
+      hamster-idle_73: 2121314376
+      hamster-idle_74: -419209315
+      hamster-idle_75: -1084314182
+      hamster-idle_76: -968897327
+      hamster-idle_77: 3965111
+      hamster-idle_78: 1156308352
+      hamster-idle_79: 1181172000
+      hamster-idle_8: 1219025700
+      hamster-idle_80: -1307765583
+      hamster-idle_81: 2070566186
+      hamster-idle_82: -1605003229
+      hamster-idle_83: 2132064028
+      hamster-idle_84: 323236791
+      hamster-idle_85: 1646387663
+      hamster-idle_86: -221188174
+      hamster-idle_87: -1611971754
+      hamster-idle_88: 1591310858
+      hamster-idle_89: 212217630
+      hamster-idle_9: -649699457
+      hamster-idle_90: -776835984
+      hamster-idle_91: -92475876
+      hamster-idle_92: -310270144
+      hamster-idle_93: 357092060
+      hamster-idle_94: 360577879
+      hamster-idle_95: 1254894808
+      hamster-idle_96: 853058946
+      hamster-idle_97: -1501043498
+      hamster-idle_98: -1435721408
+      hamster-idle_99: 588424490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,8 @@
+Library
+.DS_Store
+.plastic
+.vsconfig
+Packages
+Logs
+UserSettings
+Assets/Resources/Creds*

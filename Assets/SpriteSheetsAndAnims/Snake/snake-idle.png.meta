@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 26193317b760f469cb2a7d2812ee7655
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snake-idle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3644
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008dd4805b0d3404582115611215b453
+      internalID: -1495495803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3644
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea29a70281241a4083da02d4adf2822
+      internalID: -1581664444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 3644
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d49c03adbd1c43a61da38519e8c30
+      internalID: 1493696648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_3
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 3644
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5feee733036a04aa2dac1d4e7a188f
+      internalID: -725116955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 3644
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03818f363a159ae4c901b3de52b2847e
+      internalID: -159468534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_5
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3644
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f3a8472a0122f41b319c8bc4bffe1c
+      internalID: -1195952203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_6
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 3644
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14db0427858e947bad2117b7abf967
+      internalID: 907868497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_7
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3644
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f19d1e016c2bd48a5db4821e096061
+      internalID: -606972748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_8
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 3644
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e44c602430acd44b5ccbc62482470a
+      internalID: 1796517378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_9
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 3644
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227d5cc827371a7409497f29261667ca
+      internalID: -1579816390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3192
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920057852ec089f4ca424abcb94ca1fc
+      internalID: 1182167008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3192
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827deb833bbd0154dbd1fd063cf997b8
+      internalID: 541162393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 3192
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1310960a675e6041a1524b4a0dcd61d
+      internalID: 649155503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 3192
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c28ef73c89284e893c4079357a3bd
+      internalID: -1807561192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c614ad635e09fa4db2f528bad7f7c03
+      internalID: 317238693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_15
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2700b2b8e48c180419d7308cfe1d48c0
+      internalID: -1411338354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_16
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4aced7b57ae2b4d9d832a45d115013
+      internalID: -1221556335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_17
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cacd8651bafb504d85c766b4f84b594
+      internalID: -1471036184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_18
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38115cf1d7abe3469e039930194f4c1
+      internalID: 1429017398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_19
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 3192
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff74f1b44b738824faffd86258c76d38
+      internalID: -1374676447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2740
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd52de664dedd439344f4683641f46
+      internalID: 1645042161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2740
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbba443f3ad36d74e9bc5c144021f40c
+      internalID: -1690795528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_22
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2740
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cc3123826ad2d4b887698bad0cd2c8
+      internalID: 1944926237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_23
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2740
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502b393e8680a04daa7259e720b3114
+      internalID: 1682454941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2740
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6971904a3813e743a9379c3c4ca47dd
+      internalID: 2041400326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_25
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2740
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88d5a09da4086a4dae066273747f783
+      internalID: -1657445364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_26
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2740
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60782205b04822b43950f445d143142f
+      internalID: 1169321079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_27
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2740
+        width: 370
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecb305688329e845873604cc90777fa
+      internalID: -1872015201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_28
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 2740
+        width: 370
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926f381b6874124c8e151e1e25205be
+      internalID: 1393637418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 2740
+        width: 370
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55931b381f1a2240bb7817b8e1fdcef
+      internalID: 526254747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2288
+        width: 370
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef11610871179d546b24780357c0c770
+      internalID: 1069975418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2288
+        width: 370
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a150c88fff4f7bf4dad52f89da292dcc
+      internalID: -1776596167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_32
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2288
+        width: 372
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0207aeec3add61347ab2775f93fef475
+      internalID: -1545367495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_33
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2288
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ff7a6fdedb61a4b9a32e110ace2433
+      internalID: 353752294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_34
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2288
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0de39dad7ff147946459f0efab254
+      internalID: -1724152387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_35
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2288
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0198d0dfe91c5419858314f587d2cd
+      internalID: 188438145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_36
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2288
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5227d470050f53f46ab8033e24c17980
+      internalID: 1897250397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_37
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2288
+        width: 374
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57399b81752b32248a7f4ebce6e1052e
+      internalID: 669624800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_38
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 2288
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d99c6e4575934fb59a161a18ab0d8
+      internalID: -523802651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_39
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 2288
+        width: 376
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec50e6179cb05a45b2a42e5490aff4a
+      internalID: 1486094086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66284161c2b268945be258ce3465297a
+      internalID: 827393312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2acee37524622a48bcf00ed4aa79c1d
+      internalID: 972827600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_42
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c78c16834d1c1d4aa0de0c5b93130e5
+      internalID: -1047471206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_43
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ce11ecfade02488b2b859c0ad8cf7
+      internalID: -1091145222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_44
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11a77c5088e81543a38f9d4dfe51d60
+      internalID: -557119570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_45
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08038c1e7c73cf141982b33a7c4ea203
+      internalID: 1083304389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_46
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d32f476741d2d74aa7a9c7a4fb080f0
+      internalID: 391168599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_47
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11a1a335ab2bcd4f9eacf3b578618f2
+      internalID: -335356687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_48
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830cb1adcc1971847ad578b3137e2e57
+      internalID: -735080202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snake-idle_49
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 1836
+        width: 376
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2bcac4cf153741ba8c4b359caf4dc
+      internalID: 252943252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 553f2a0db945a53419a5dc777109fbcd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      snake-idle_0: -1495495803
+      snake-idle_1: -1581664444
+      snake-idle_10: 1182167008
+      snake-idle_11: 541162393
+      snake-idle_12: 649155503
+      snake-idle_13: -1807561192
+      snake-idle_14: 317238693
+      snake-idle_15: -1411338354
+      snake-idle_16: -1221556335
+      snake-idle_17: -1471036184
+      snake-idle_18: 1429017398
+      snake-idle_19: -1374676447
+      snake-idle_2: 1493696648
+      snake-idle_20: 1645042161
+      snake-idle_21: -1690795528
+      snake-idle_22: 1944926237
+      snake-idle_23: 1682454941
+      snake-idle_24: 2041400326
+      snake-idle_25: -1657445364
+      snake-idle_26: 1169321079
+      snake-idle_27: -1872015201
+      snake-idle_28: 1393637418
+      snake-idle_29: 526254747
+      snake-idle_3: -725116955
+      snake-idle_30: 1069975418
+      snake-idle_31: -1776596167
+      snake-idle_32: -1545367495
+      snake-idle_33: 353752294
+      snake-idle_34: -1724152387
+      snake-idle_35: 188438145
+      snake-idle_36: 1897250397
+      snake-idle_37: 669624800
+      snake-idle_38: -523802651
+      snake-idle_39: 1486094086
+      snake-idle_4: -159468534
+      snake-idle_40: 827393312
+      snake-idle_41: 972827600
+      snake-idle_42: -1047471206
+      snake-idle_43: -1091145222
+      snake-idle_44: -557119570
+      snake-idle_45: 1083304389
+      snake-idle_46: 391168599
+      snake-idle_47: -335356687
+      snake-idle_48: -735080202
+      snake-idle_49: 252943252
+      snake-idle_5: -1195952203
+      snake-idle_6: 907868497
+      snake-idle_7: -606972748
+      snake-idle_8: 1796517378
+      snake-idle_9: -1579816390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

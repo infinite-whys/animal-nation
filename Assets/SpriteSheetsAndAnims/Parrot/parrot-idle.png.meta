@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: 44fb6a114c4e24869a8a8265014d4f43
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: parrot-idle_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3636
+        width: 570
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b17eda59e94e47b078fb069a867d4
+      internalID: -1450698717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3634
+        width: 590
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1f36e6f75c9c4aabdccfe43c3fe87
+      internalID: -525031358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_2
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 3632
+        width: 608
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1f0d811cf3c19468775427e510a390
+      internalID: 177219918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_3
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3630
+        width: 622
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc78c35864207e64088b4f9d209bf86d
+      internalID: -793842776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_4
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 3628
+        width: 636
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f51755bc6c334c96702331b88eb9d
+      internalID: 362343801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_5
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 3626
+        width: 640
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382aba5d692eeb439ca8c68e2ba32ac
+      internalID: -986334086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3140
+        width: 644
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cc6092be64e5541af2713d27ee4b63
+      internalID: 197790900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3138
+        width: 644
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeda764c53ecb04a9a58538913008f7
+      internalID: 980791062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3134
+        width: 638
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b4646b5338fa4081962cf40015f64
+      internalID: -2101486046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_9
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3134
+        width: 628
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e50f7c99415d5440bc23c8cd000d973
+      internalID: -851189863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_10
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 3134
+        width: 638
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1067bb0b7c8564b9de4b90e333ed0c
+      internalID: -1347953613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_11
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 3138
+        width: 640
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d36f392cdc46b4b9c242cffb4f5c21
+      internalID: -1962930248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2656
+        width: 642
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b14dc6d51060a244ac43eb0b11e3167
+      internalID: 1726194237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2658
+        width: 644
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e364692906bf0049add0ba8c3a1ea4f
+      internalID: 1648436592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2660
+        width: 638
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc090518c8674c04990875a15038a13e
+      internalID: 1501092195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_15
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 2662
+        width: 630
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84ec2427fb46645ad8673c894559d2
+      internalID: -1988346705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_16
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2664
+        width: 618
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60e7c2264539d44699b3b25e70c4063
+      internalID: 915238197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_17
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2666
+        width: 606
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d60f37d26b1cd6409858dc4f5936584
+      internalID: 248455501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2186
+        width: 590
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a9600080031c74daccfe21a36aace7
+      internalID: -14439923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2188
+        width: 570
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7180c074406ac145b0c2c540928ce58
+      internalID: -1512001825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_20
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2190
+        width: 566
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494cd43772b8c0747a49acf615b95d85
+      internalID: -152697423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_21
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2192
+        width: 562
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae1b5ce5c368ed46953566494f9ffef
+      internalID: -600527089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_22
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2188
+        width: 558
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8451971aa6dad22409c513dd01a783d4
+      internalID: -326009390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_23
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 2184
+        width: 556
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a74c8313afc1349b5d7bcdc336a4f7
+      internalID: -987692642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1698
+        width: 554
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ed6f3a2ccbeda4a8ed1488d434c2d4
+      internalID: 874166777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_25
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1694
+        width: 552
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c37c111cc77bb47960998aa55e25f3
+      internalID: 661692893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_26
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1690
+        width: 548
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20aaac8ebf4264d87f7729571bfb7a
+      internalID: -1245012272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_27
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1688
+        width: 544
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a895135febaa56546ac5241e997c9ea3
+      internalID: 88902331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_28
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1686
+        width: 542
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd4b4646aabfdd41bd0a368281c845a
+      internalID: 519476898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_29
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 1682
+        width: 536
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715a0aaaf60d81c409e5e87bfd563378
+      internalID: 1935442379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1202
+        width: 542
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e81a96a386d78d499de1670ae9add94
+      internalID: -694598415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_31
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1204
+        width: 544
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a104c492184be7948949a30076129df4
+      internalID: -1477088508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_32
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1206
+        width: 548
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406ebf8595c80ca4d9e47b218b1183d4
+      internalID: 1244592444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_33
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1210
+        width: 552
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad4a25532561cb46882326a12aa9ba2
+      internalID: -1739257391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_34
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1214
+        width: 552
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec682cd165ee614fa063834d31a30a4
+      internalID: -532210219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_35
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1218
+        width: 556
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b53e9358c0e34e9a3ee71f66811cf
+      internalID: 60485225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 740
+        width: 560
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b9af956aee624da20ac8fba76a9e5
+      internalID: 242912341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_37
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 742
+        width: 562
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bcff4f3243d554798a55bbb3a5eaa4
+      internalID: -219967318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_38
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 740
+        width: 566
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927e9d3a5a7a75a478b951de4f0c4bbd
+      internalID: -1629489153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: parrot-idle_39
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 738
+        width: 570
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00261277ad5f1a64cb1570005cf77bc7
+      internalID: -1218413037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a60b0b8cd57f3a4f87559888327bbf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      parrot-idle_0: -1450698717
+      parrot-idle_1: -525031358
+      parrot-idle_10: -1347953613
+      parrot-idle_11: -1962930248
+      parrot-idle_12: 1726194237
+      parrot-idle_13: 1648436592
+      parrot-idle_14: 1501092195
+      parrot-idle_15: -1988346705
+      parrot-idle_16: 915238197
+      parrot-idle_17: 248455501
+      parrot-idle_18: -14439923
+      parrot-idle_19: -1512001825
+      parrot-idle_2: 177219918
+      parrot-idle_20: -152697423
+      parrot-idle_21: -600527089
+      parrot-idle_22: -326009390
+      parrot-idle_23: -987692642
+      parrot-idle_24: 874166777
+      parrot-idle_25: 661692893
+      parrot-idle_26: -1245012272
+      parrot-idle_27: 88902331
+      parrot-idle_28: 519476898
+      parrot-idle_29: 1935442379
+      parrot-idle_3: -793842776
+      parrot-idle_30: -694598415
+      parrot-idle_31: -1477088508
+      parrot-idle_32: 1244592444
+      parrot-idle_33: -1739257391
+      parrot-idle_34: -532210219
+      parrot-idle_35: 60485225
+      parrot-idle_36: 242912341
+      parrot-idle_37: -219967318
+      parrot-idle_38: -1629489153
+      parrot-idle_39: -1218413037
+      parrot-idle_4: 362343801
+      parrot-idle_5: -986334086
+      parrot-idle_6: 197790900
+      parrot-idle_7: 980791062
+      parrot-idle_8: -2101486046
+      parrot-idle_9: -851189863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
