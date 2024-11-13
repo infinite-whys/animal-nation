@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2207024943341663483, guid: 97caf4859d87eb8419ce34f60ec95804, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2207024943341663483, guid: 97caf4859d87eb8419ce34f60ec95804, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 165.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3240001019114163198, guid: 97caf4859d87eb8419ce34f60ec95804, type: 3}
       propertyPath: m_Name
       value: Snake

@@ -9,48 +9,60 @@ public class RegionInfoUI : MonoBehaviour
     public GameObject regionCanvas;
     public Image PanelImage;
 
-    public TMP_Text RegionText;
-    public TMP_Text TopicText;
-    public TMP_Text HighestPopulationGroupText;
+    public TextMeshProUGUI RegionText;
     public Button DemographicDetailsButton;
+    public Button StartRallyButton;
     public Image HasHeldRallyCheckmark;
     public GameObject UICameratarget;
     RegionData RegionData;
     TopicData TopicData;
 
-    public Color DefaultColour;
-    public Color RalliedColour;
+    [SerializeField] GameObject BarChartUI;
 
     bool isInit = false;
 
     public void ShowUI()
     {
         if(isInit)
+        {
             regionCanvas.SetActive(true);
+            BarChartUI.SetActive(true);
+        }
+        StartRallyButton.onClick.AddListener(OnStartRallyClicked);
         DemographicDetailsButton.onClick.AddListener(OnDemographicDetialsButtonClicked);
     }
     public void HideUI()
     {
         regionCanvas.SetActive(false);
+        BarChartUI.SetActive(false);
+        StartRallyButton.onClick.RemoveListener(OnStartRallyClicked);
         DemographicDetailsButton.onClick.RemoveListener(OnDemographicDetialsButtonClicked);
+    }
+
+    void OnStartRallyClicked()
+    {
+        Region region = GetComponentInParent<Region>();
+        if (region != null )
+        {
+            region.OnSelected();
+        }
     }
 
     public void InitUI(RegionData regionData, TopicData topicData, string _highestPopulationGroup)
     {
-        PanelImage.color = DefaultColour;
+
         HasHeldRallyCheckmark.gameObject.SetActive(false);
         RegionData = regionData;
         TopicData = topicData;
-        RegionText.text = "Region: " + regionData.RegionName;
-        TopicText.text = "Topic: " + topicData.Topic;
-        HighestPopulationGroupText.text = "Highest Population Group: " + _highestPopulationGroup;
+        RegionText.text = $"The most concerning issue amoung the residents of {regionData.RegionName} is <color=#F3C44D>{topicData.Topic}</color>";
         isInit = true;
         if (RegionData.HasHadRally)
         {
             HasHeldRallyCheckmark.gameObject.SetActive(true);
-            HighestPopulationGroupText.text = $"Chance of winning: {regionData.PercentageOfWinning}%";
             DemographicDetailsButton.gameObject.SetActive(false);
-            PanelImage.color = RalliedColour;
+            StartRallyButton.gameObject.SetActive(false);
+            string regionText = RegionText.text + "\n" + $"Chance of winning: <color=#F3C44D>{regionData.PercentageOfWinning}%</color>";
+            RegionText.text = regionText;
         }
     }
 

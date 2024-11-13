@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,10 +113,10 @@ TextureImporter:
       name: parrot-idle_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 3636
-        width: 570
-        height: 440
+        x: 11
+        y: 7734
+        width: 568
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +134,8 @@ TextureImporter:
       name: parrot-idle_1
       rect:
         serializedVersion: 2
-        x: 680
-        y: 3634
+        x: 651
+        y: 7732
         width: 590
         height: 440
       alignment: 0
@@ -155,10 +155,10 @@ TextureImporter:
       name: parrot-idle_2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 3632
+        x: 1292
+        y: 7730
         width: 608
-        height: 442
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: parrot-idle_3
       rect:
         serializedVersion: 2
-        x: 2006
-        y: 3630
+        x: 1934
+        y: 7728
         width: 622
-        height: 442
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: parrot-idle_4
       rect:
         serializedVersion: 2
-        x: 2668
-        y: 3628
-        width: 636
-        height: 440
+        x: 2574
+        y: 7725
+        width: 634
+        height: 441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,9 +218,9 @@ TextureImporter:
       name: parrot-idle_5
       rect:
         serializedVersion: 2
-        x: 3332
-        y: 3626
-        width: 640
+        x: 3215
+        y: 7723
+        width: 641
         height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: parrot-idle_6
       rect:
         serializedVersion: 2
-        x: 18
-        y: 3140
+        x: 3857
+        y: 7720
         width: 644
-        height: 444
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: parrot-idle_7
       rect:
         serializedVersion: 2
-        x: 680
-        y: 3138
-        width: 644
-        height: 442
+        x: 4498
+        y: 7718
+        width: 642
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: parrot-idle_8
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 3134
-        width: 638
-        height: 444
+        x: 5140
+        y: 7716
+        width: 637
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: parrot-idle_9
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 3134
+        x: 5782
+        y: 7714
         width: 628
-        height: 444
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: parrot-idle_10
       rect:
         serializedVersion: 2
-        x: 2670
-        y: 3134
-        width: 638
-        height: 444
+        x: 6422
+        y: 7715
+        width: 636
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: parrot-idle_11
       rect:
         serializedVersion: 2
-        x: 3334
-        y: 3138
-        width: 640
-        height: 442
+        x: 7062
+        y: 7718
+        width: 641
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,9 +365,9 @@ TextureImporter:
       name: parrot-idle_12
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2656
-        width: 642
+        x: 11
+        y: 7238
+        width: 644
         height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -386,9 +386,9 @@ TextureImporter:
       name: parrot-idle_13
       rect:
         serializedVersion: 2
-        x: 680
-        y: 2658
-        width: 644
+        x: 651
+        y: 7239
+        width: 643
         height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: parrot-idle_14
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 2660
-        width: 638
-        height: 444
+        x: 1293
+        y: 7242
+        width: 637
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,9 +428,9 @@ TextureImporter:
       name: parrot-idle_15
       rect:
         serializedVersion: 2
-        x: 2006
-        y: 2662
-        width: 630
+        x: 1934
+        y: 7243
+        width: 629
         height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: parrot-idle_16
       rect:
         serializedVersion: 2
-        x: 2670
-        y: 2664
+        x: 2575
+        y: 7246
         width: 618
-        height: 442
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +470,10 @@ TextureImporter:
       name: parrot-idle_17
       rect:
         serializedVersion: 2
-        x: 3332
-        y: 2666
-        width: 606
-        height: 442
+        x: 3215
+        y: 7248
+        width: 605
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,9 +491,9 @@ TextureImporter:
       name: parrot-idle_18
       rect:
         serializedVersion: 2
-        x: 16
-        y: 2186
-        width: 590
+        x: 3856
+        y: 7250
+        width: 589
         height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: parrot-idle_19
       rect:
         serializedVersion: 2
-        x: 680
-        y: 2188
-        width: 570
-        height: 440
+        x: 4498
+        y: 7252
+        width: 568
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +533,10 @@ TextureImporter:
       name: parrot-idle_20
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 2190
+        x: 5135
+        y: 7254
         width: 566
-        height: 438
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,8 +554,8 @@ TextureImporter:
       name: parrot-idle_21
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 2192
+        x: 5774
+        y: 7256
         width: 562
         height: 438
       alignment: 0
@@ -575,9 +575,9 @@ TextureImporter:
       name: parrot-idle_22
       rect:
         serializedVersion: 2
-        x: 2662
-        y: 2188
-        width: 558
+        x: 6413
+        y: 7252
+        width: 557
         height: 444
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: parrot-idle_23
       rect:
         serializedVersion: 2
-        x: 3322
-        y: 2184
-        width: 556
-        height: 450
+        x: 7052
+        y: 7249
+        width: 553
+        height: 449
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,9 +617,9 @@ TextureImporter:
       name: parrot-idle_24
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1698
-        width: 554
+        x: 0
+        y: 6763
+        width: 552
         height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -638,10 +638,10 @@ TextureImporter:
       name: parrot-idle_25
       rect:
         serializedVersion: 2
-        x: 668
-        y: 1694
-        width: 552
-        height: 460
+        x: 640
+        y: 6759
+        width: 550
+        height: 459
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: parrot-idle_26
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 1690
+        x: 1281
+        y: 6755
         width: 548
-        height: 466
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,9 +680,9 @@ TextureImporter:
       name: parrot-idle_27
       rect:
         serializedVersion: 2
-        x: 1996
-        y: 1688
-        width: 544
+        x: 1923
+        y: 6754
+        width: 543
         height: 468
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: parrot-idle_28
       rect:
         serializedVersion: 2
-        x: 2660
-        y: 1686
-        width: 542
-        height: 472
+        x: 2566
+        y: 6751
+        width: 539
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,10 +722,10 @@ TextureImporter:
       name: parrot-idle_29
       rect:
         serializedVersion: 2
-        x: 3324
-        y: 1682
-        width: 536
-        height: 478
+        x: 3209
+        y: 6747
+        width: 535
+        height: 477
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,10 +743,10 @@ TextureImporter:
       name: parrot-idle_30
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1202
-        width: 542
-        height: 472
+        x: 3847
+        y: 6751
+        width: 539
+        height: 471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +764,10 @@ TextureImporter:
       name: parrot-idle_31
       rect:
         serializedVersion: 2
-        x: 670
-        y: 1204
-        width: 544
-        height: 470
+        x: 4487
+        y: 6754
+        width: 543
+        height: 468
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,10 +785,10 @@ TextureImporter:
       name: parrot-idle_32
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 1206
-        width: 548
-        height: 466
+        x: 5127
+        y: 6755
+        width: 547
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -806,10 +806,10 @@ TextureImporter:
       name: parrot-idle_33
       rect:
         serializedVersion: 2
-        x: 1994
-        y: 1210
-        width: 552
-        height: 460
+        x: 5768
+        y: 6759
+        width: 550
+        height: 459
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,8 +827,8 @@ TextureImporter:
       name: parrot-idle_34
       rect:
         serializedVersion: 2
-        x: 2658
-        y: 1214
+        x: 6410
+        y: 6763
         width: 552
         height: 454
       alignment: 0
@@ -848,10 +848,10 @@ TextureImporter:
       name: parrot-idle_35
       rect:
         serializedVersion: 2
-        x: 3322
-        y: 1218
-        width: 556
-        height: 450
+        x: 7052
+        y: 6767
+        width: 553
+        height: 449
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,10 +869,10 @@ TextureImporter:
       name: parrot-idle_36
       rect:
         serializedVersion: 2
-        x: 8
-        y: 740
-        width: 560
-        height: 444
+        x: 3
+        y: 6289
+        width: 558
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,10 +890,10 @@ TextureImporter:
       name: parrot-idle_37
       rect:
         serializedVersion: 2
-        x: 674
-        y: 742
+        x: 646
+        y: 6292
         width: 562
-        height: 440
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,10 +911,10 @@ TextureImporter:
       name: parrot-idle_38
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 740
-        width: 566
-        height: 440
+        x: 1290
+        y: 6290
+        width: 564
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,10 +932,10 @@ TextureImporter:
       name: parrot-idle_39
       rect:
         serializedVersion: 2
-        x: 2006
-        y: 738
-        width: 570
-        height: 440
+        x: 1934
+        y: 6288
+        width: 568
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

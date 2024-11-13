@@ -100,4 +100,9 @@ public class MainMenuEvents : MonoBehaviour
         }
         startButton.transform.position = startPosition; // Ensure it ends exactly at 'startPosition'
     }
+
+    public void OnQuit()
+    {
+        Application.Quit();
+    }
 }

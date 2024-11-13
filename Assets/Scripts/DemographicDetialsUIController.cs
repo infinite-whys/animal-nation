@@ -197,7 +197,7 @@ public class DemographicDetialsUIController : MonoBehaviour
     public void ShowAge()
     {
         HideAllPanels();
-
+        ClearChart();
         foreach (Transform child in Container.transform)
             Destroy(child.gameObject);
 
@@ -206,6 +206,12 @@ public class DemographicDetialsUIController : MonoBehaviour
             GameObject newOBJ = GameObject.Instantiate(PersonaInfoUIPrefab, Container.transform);
             newOBJ.GetComponent<PersonaInfoUIController>().Init(persona.PersonaIcon, persona.PersonaTraits.species, persona.PersonaTraits.ageRange);
         }
+
+        IntroText.text = $"Age";
+        TopicText.text = string.Empty;
+        CenturalTopicText.text = string.Empty;
+        SurveyText.text = string.Empty;
+
 
         Panels[1].SetActive(true);
     }

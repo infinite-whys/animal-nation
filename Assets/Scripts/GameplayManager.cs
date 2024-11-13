@@ -16,8 +16,6 @@ public class GameplayManager : MonoBehaviour
     [field: SerializeField] public List<int> AllScores { get; private set; }
     [field: SerializeField] public List<int> AllFinalScores { get; private set; }
 
-    //[field: SerializeField] public List<RegionData> RegionsRallied { get; private set; } = new List<RegionData>();
-
     [SerializeField] Region SelectedRegion;
     public GameObject PromptUICanvas;
 
@@ -25,10 +23,6 @@ public class GameplayManager : MonoBehaviour
     public TopicData CurrentTopic;
 
     public bool HasRallied1stRegion = false;
-    /*{
-        get { return RegionsRallied.Count > 0; }
-        private set {}
-    }*/
 
     private void Awake()
     {
@@ -84,7 +78,6 @@ public class GameplayManager : MonoBehaviour
 
     IEnumerator EndOfRallyCoroutine()
     {
-        //RegionsRallied.Add(SelectedRegion.RegionData);
         HasRallied1stRegion = true;
         SelectedRegion.RegionData.HasHadRally = true;
         int score = GetRallyScore();

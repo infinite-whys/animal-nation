@@ -13,19 +13,22 @@ public class TutorialUIManager : MonoBehaviour
     [SerializeField] Button ContinueButton;
 
     [SerializeField] GameObject IntroPanel;
-    [SerializeField] TMP_Text Introtext;
+    [SerializeField] TextMeshProUGUI Introtext;
 
     [SerializeField] GameObject TutorialPanel;
-    [SerializeField] TMP_Text Tutorialtext;
+    [SerializeField] TextMeshProUGUI Tutorialtext;
     [SerializeField] GameObject AnimalOBJContainer;
     [SerializeField] GameObject AnimalOBJ;
     public List<GameObject>AnimalPrefabs = new List<GameObject>();
     private List<GameObject> shuffledAnimals = new List<GameObject>();
     private int currentIndex = 0;
-    //Results
 
+    //Results
     [SerializeField] GameObject ResultsPanel;
-    [SerializeField] TMP_Text Resultstext;
+    [SerializeField] GameObject ResultsPanel2;
+    [SerializeField] TextMeshProUGUI Resultstext;
+    [SerializeField] TextMeshProUGUI Resultstext2;
+    [SerializeField] GameObject ResultsPersonaContainer;
 
     [field: SerializeField] public bool Continue { get; private set; } = false;
 
@@ -46,22 +49,10 @@ public class TutorialUIManager : MonoBehaviour
 
     public IEnumerator InitIntro()
     {
-        /*TutorialPanel.SetActive(false);
-
-        ActiveTutorialDatas.Clear();
-        ActiveTutorialDatas = DialogueManager.Instance.GetDialogues(GameScreenType.Intro);
-        Introtext.text = ActiveTutorialDatas[0].Dialogue;
-
-        ContinueButton.onClick.RemoveAllListeners();
-        ContinueButton.onClick.AddListener(OnIntroContinueClicked);
-
-        IntroPanel.SetActive(true);
-        ShowUI();*/
         StartCoroutine(InitTutorial(GameScreenType.Intro));
         yield return new WaitUntil(() => TutorialFinished);
 
         RegionSelectionManager.Instance.EnableRegionSelection();
-        //StartCoroutine(InitTutorial(GameScreenType.RegionSelection));
     }
 
     void OnIntroContinueClicked()
@@ -81,6 +72,7 @@ public class TutorialUIManager : MonoBehaviour
         ActiveTutorialDatas = DialogueManager.Instance.GetDialogues(gameScreenType);
         
         ContinueButton.onClick.RemoveAllListeners();
+        ContinueButton.onClick.AddListener(ContinueButton.GetComponent<ButtonClick>().OnButtonClick);
         ContinueButton.onClick.AddListener(OnContinueClicked);
 
         if (gameScreenType ==GameScreenType.RegionSelection)
@@ -145,35 +137,52 @@ public class TutorialUIManager : MonoBehaviour
     {
         ResultsFinished = false;
         ShowUI();
-        string results = $"{GameplayManager.Instance.GetFinalScore()}%";
+        string results = $"<color=#F3C44D>0%</color>";
         Resultstext.text = results;
-
-        Vector3 startPosition = ResultsPanel.transform.position;
-        Vector3 endPosition = new Vector3(startPosition.x, startPosition.y - 800, startPosition.z);
-        float duration = 1f; // Time to move in each direction
-
-        // Move up to the 'top' position
         float elapsedTime = 0;
-        while (elapsedTime < duration)
+
+        if (GameplayManager.Instance.GetFinalScore() >= 50)
+            Resultstext2.text = $"Congratulations, you are the next president of Animal Nation.";
+        else
+            Resultstext2.text = $"Oh no!, better luck next time!";
+        Resultstext2.gameObject.SetActive(false);
+
+        foreach (Transform child in ResultsPersonaContainer.transform)
+            Destroy(child.gameObject);
+
+        foreach (GameObject animal in AnimalPrefabs)
         {
-            ResultsPanel.transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / duration);
+            GameObject NewAnimal = GameObject.Instantiate(animal, ResultsPersonaContainer.transform);
+        }
+
+        ResultsPanel2.SetActive(true);
+        ShowContinueButton(false);
+        yield return new WaitUntil(() => Continue);
+
+        ResultsPanel2.SetActive(false);
+        ResultsPanel.SetActive(true);
+
+        float countDuration = 1f; // Duration for counting up from 0 to targetScore
+        float currentScore = 0;
+        elapsedTime = 0;
+        float targetScore = GameplayManager.Instance.GetFinalScore();
+        while (elapsedTime < countDuration)
+        {
+            currentScore = Mathf.Lerp(0, targetScore, elapsedTime / countDuration);
+            Resultstext.text = $"<color=#F3C44D>{Mathf.RoundToInt(currentScore)}%</color>";
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        ResultsPanel.transform.position = endPosition; // Ensure it ends exactly at 'top'
+        // Ensure it ends exactly at the target score
+        Resultstext.text = $"<color=#F3C44D>{Mathf.RoundToInt(targetScore)}%</color>";
 
-        TutorialUIManager.Instance.ShowContinueButton(false);
+        Resultstext2.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
+
+        TutorialUIManager.Instance.ShowContinueButton(true);
         yield return new WaitUntil(() => TutorialUIManager.Instance.Continue);
 
-        // Move back to the 'startPosition'
-        elapsedTime = 0;
-        while (elapsedTime < duration)
-        {
-            ResultsPanel.transform.position = Vector3.Lerp(endPosition, startPosition, elapsedTime / duration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        ResultsPanel.transform.position = startPosition; // Ensure it ends exactly at 'startPosition'
+        ResultsPanel.SetActive(false);
         ResultsFinished = true;
     }
 
@@ -203,6 +212,7 @@ public class TutorialUIManager : MonoBehaviour
         TutorialPanel.SetActive(false);
         IntroPanel.SetActive(false);
         ContinueButton.onClick.RemoveAllListeners();
+        ContinueButton.onClick.AddListener(ContinueButton.GetComponent<ButtonClick>().OnButtonClick);
         ContinueButton.onClick.AddListener(OnContinueClicked);
 
         ShowUI();

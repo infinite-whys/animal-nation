@@ -226,8 +226,9 @@ public class RegionSelectionManager : MonoBehaviour
 
         DisableRegionSelection();
 
-        StartCoroutine(TutorialUIManager.Instance.InitTutorial(GameScreenType.Results2));
-        yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
+
+        //StartCoroutine(TutorialUIManager.Instance.InitTutorial(GameScreenType.Results2));
+        //yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
 
         int Score = GameplayManager.Instance.GetFinalScore();
         StartCoroutine(TutorialUIManager.Instance.ShowResults());
@@ -238,8 +239,8 @@ public class RegionSelectionManager : MonoBehaviour
 
         yield return new WaitUntil(() => TutorialUIManager.Instance.ResultsFinished);
 
-        StartCoroutine(TutorialUIManager.Instance.InitTutorial(type));
-        yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
+        //StartCoroutine(TutorialUIManager.Instance.InitTutorial(type));
+        //yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
 
         yield return new WaitForSeconds(3f);
         LevelManager.Instance.LoadLevel(LevelManager.MainMenuScene);

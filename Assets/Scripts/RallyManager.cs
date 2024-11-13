@@ -14,27 +14,29 @@ public class RallyManager : MonoBehaviour
 
     //RoundInfoPanel
     [SerializeField] GameObject RoundInfoPanel;
-    [SerializeField] TMP_Text RoundText;
-    [SerializeField] TMP_Text QuestionText;
+    [SerializeField] TextMeshProUGUI RoundText;
+    [SerializeField] TextMeshProUGUI QuestionText;
+    [SerializeField] Animation uiAnim;
 
     //Personas
     [SerializeField] GameObject PersonasContainer;
     [SerializeField] List<RallyPersonaController> PersonasList;
 
     //Banner
-    [SerializeField] TMP_Text BannerText;
+    [SerializeField] TextMeshProUGUI BannerText;
+    [SerializeField] Animation curtainsAnim;
 
     //UserInput
     [SerializeField] GameObject UserUnputPanel;
     [SerializeField] TMP_InputField InputField;
     [SerializeField] Button SayButton;
     [SerializeField] GameObject DialogueBubble;
-    [SerializeField] TMP_Text InputQuestionText;
+    [SerializeField] TextMeshProUGUI InputQuestionText;
     [SerializeField] Button DemographicUIButton;
 
     //Results
     [SerializeField] GameObject ResultsPanel;
-    [SerializeField] TMP_Text ResultsText;
+    [SerializeField] TextMeshProUGUI ResultsText;
 
     bool CreatePersonasFinished = false;
     bool RoundInfoFinished = false;
@@ -67,7 +69,11 @@ public class RallyManager : MonoBehaviour
 
         GeminiAPIManager.Instance.NewRequestReceived.AddListener(AddRecievedRequestToList);
 
-        BannerText.text = GameplayManager.Instance.SelectedTopic.Topic;
+        BannerText.text = $"Topic: <color=#F3C44D>{GameplayManager.Instance.SelectedTopic.Topic}</color>";
+
+        curtainsAnim.Play("CurtainsAnim");
+
+        yield return new WaitForSeconds(2f);
 
         StartCoroutine(CreatePersonas());
 
@@ -75,8 +81,11 @@ public class RallyManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        StartCoroutine(TutorialUIManager.Instance.InitTutorial(GameScreenType.Rally));
-        yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
+        if(!GameplayManager.Instance.HasRallied1stRegion)
+        {
+            StartCoroutine(TutorialUIManager.Instance.InitTutorial(GameScreenType.Rally));
+            yield return new WaitUntil(() => TutorialUIManager.Instance.TutorialFinished);
+        }
 
         for (int i = 0; i <= 2; i++)
         {
@@ -117,7 +126,7 @@ public class RallyManager : MonoBehaviour
 
     IEnumerator ShowResults()
     {
-        string results = $"{GameplayManager.Instance.GetRallyScore()}%";
+        string results = $"<color=#F3C44D>0%</color>";
         ResultsText.text = results;
 
         Vector3 startPosition = ResultsPanel.transform.position;
@@ -133,6 +142,21 @@ public class RallyManager : MonoBehaviour
             yield return null;
         }
         ResultsPanel.transform.position = endPosition; // Ensure it ends exactly at 'top'
+
+        float countDuration = 1f; // Duration for counting up from 0 to targetScore
+        float currentScore = 0;
+        elapsedTime = 0;
+        float targetScore = GameplayManager.Instance.GetRallyScore();
+
+        while (elapsedTime < countDuration)
+        {
+            currentScore = Mathf.Lerp(0, targetScore, elapsedTime / countDuration);
+            ResultsText.text = $"<color=#F3C44D>{Mathf.RoundToInt(currentScore)}%</color>";
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        // Ensure it ends exactly at the target score
+        ResultsText.text = $"<color=#F3C44D>{Mathf.RoundToInt(targetScore)}%</color>";
 
         TutorialUIManager.Instance.ShowContinueButton(true);
         yield return new WaitUntil(() => TutorialUIManager.Instance.Continue);
@@ -182,33 +206,18 @@ public class RallyManager : MonoBehaviour
         List<TutorialData> dialogues = DialogueManager.Instance.GetDialogues(gameScreenType);
         RoundText.text = dialogues[0].Dialogue;
         QuestionText.text = GameplayManager.Instance.GetCurrentQuestion();
+        RoundInfoPanel.SetActive(true);
+        uiAnim.Play("RoundInfoAnim");
 
-        Vector3 startPosition = RoundInfoPanel.transform.position;
-        Vector3 endPosition = new Vector3(startPosition.x, startPosition.y -800, startPosition.z);
-        float duration = 1f; // Time to move in each direction
-
-        // Move up to the 'top' position
-        float elapsedTime = 0;
-        while (elapsedTime < duration)
-        {
-            RoundInfoPanel.transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / duration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        RoundInfoPanel.transform.position = endPosition; // Ensure it ends exactly at 'top'
+        yield return new WaitForSeconds(1f);
 
         TutorialUIManager.Instance.ShowContinueButton(true);
         yield return new WaitUntil(() => TutorialUIManager.Instance.Continue);
 
-        // Move back to the 'startPosition'
-        elapsedTime = 0;
-        while (elapsedTime < duration)
-        {
-            RoundInfoPanel.transform.position = Vector3.Lerp(endPosition, startPosition, elapsedTime / duration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-        RoundInfoPanel.transform.position = startPosition; // Ensure it ends exactly at 'startPosition'
+        //uiAnim["RoundInfoAnim"].speed = -1;
+        //uiAnim.Play("RoundInfoAnim");
+        RoundInfoPanel.SetActive(false);
+        yield return new WaitForSeconds(1f);
 
         RoundInfoFinished = true;
     }
@@ -250,8 +259,8 @@ public class RallyManager : MonoBehaviour
         InputField.text = string.Empty;
         InputQuestionText.text = GameplayManager.Instance.GetCurrentQuestion();
 
+        SayButton.onClick.AddListener(SayButton.GetComponent<ButtonClick>().OnButtonClick);
         SayButton.onClick.AddListener(SayOnClick);
-
         DialogueBubble.SetActive(true);
         UserUnputPanel.SetActive(true);
     }
@@ -269,14 +278,11 @@ public class RallyManager : MonoBehaviour
         UserHasMadeInput = true;
         DialogueBubble.SetActive(false);
         SayButton.onClick.RemoveListener(SayOnClick);
+        SayButton.onClick.RemoveListener(SayButton.GetComponent<ButtonClick>().OnButtonClick);
     }
 
     public void ShowDemographicDetails()
     {
         DemographicDetialsUIController.Instance.OpenUI(GameplayManager.Instance.CurrentRegion, GameplayManager.Instance.CurrentTopic);
-    }
-    public void CloseDemographicUI()
-    {
-
     }
 }

@@ -9,6 +9,7 @@ public class Region : MonoBehaviour
     [field: SerializeField] public RegionData RegionData { get; private set; } // Use this to get region info
 
     public bool IsSelected = false;
+    public bool CanSelect = true;
 
     [SerializeField] Material hoveredMaterial;
     [SerializeField] Material selectedMaterial;
@@ -68,7 +69,11 @@ public class Region : MonoBehaviour
     {
         if (IsSelected && !RegionData.HasHadRally)
         {
-            StartCoroutine(OnSelectRegionCoroutine());
+            if(CanSelect)
+            {
+                CanSelect = false;
+                StartCoroutine(OnSelectRegionCoroutine());
+            }
             return;
         }
         else if (IsSelected && RegionData.HasHadRally)
